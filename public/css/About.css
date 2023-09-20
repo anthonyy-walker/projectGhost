@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@viewport {
+	width: device-width ;
+	zoom: 1.0 ;
+  }
+
+.mediaViewInfo {
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: About;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#About {
+	position: absolute;
+	width: 1920px;
+	height: 1138px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+#Background {
+	position: absolute;
+	width: 1924px;
+	height: 1138px;
+	left: -4px;
+	top: 0px;
+	overflow: visible;
+}
+#Background_i {
+	fill: rgba(255,255,255,1);
+}
+.Background_i {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1138px;
+	left: 4px;
+	top: 0px;
+}
+#particles {
+	opacity: 0.6;
+	position: absolute;
+	width: 186.24px;
+	height: 192px;
+	left: 0px;
+	top: 232px;
+	overflow: visible;
+}
+#Mask {
+	position: absolute;
+	width: 186.24px;
+	height: 192px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Content {
+	position: absolute;
+	width: 960px;
+	height: 788px;
+	left: 500px;
+	top: 87px;
+	overflow: visible;
+}
+#Icon_cards {
+	position: absolute;
+	width: 960px;
+	height: 601px;
+	left: 0px;
+	top: 187px;
+	overflow: visible;
+}
+#icon-card {
+	position: absolute;
+	width: 458px;
+	height: 298px;
+	left: 488px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_Copy_3 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_Copy_3 {
+	position: absolute;
+	overflow: visible;
+	width: 458px;
+	height: 298px;
+	left: 0px;
+	top: 0px;
+}
+#icon-card_p {
+	position: absolute;
+	width: 459px;
+	height: 298px;
+	left: 25px;
+	top: 303px;
+	overflow: visible;
+}
+#Rectangle_Copy_5 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_Copy_5 {
+	position: absolute;
+	overflow: visible;
+	width: 459px;
+	height: 298px;
+	left: 0px;
+	top: 0px;
+}
+#icon-card_r {
+	position: absolute;
+	width: 458px;
+	height: 298px;
+	left: 488px;
+	top: 301px;
+	overflow: visible;
+}
+#Rectangle_Copy_4 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_Copy_4 {
+	position: absolute;
+	overflow: visible;
+	width: 458px;
+	height: 298px;
+	left: 0px;
+	top: 0px;
+}
+#plus {
+	position: absolute;
+	width: 960px;
+	height: 3px;
+	left: 0px;
+	top: 307px;
+	overflow: visible;
+}
+#Rectangle_Copy_2 {
+	fill: rgba(118,125,134,0.4);
+}
+.Rectangle_Copy_2 {
+	position: absolute;
+	overflow: visible;
+	width: 960px;
+	height: 3px;
+	left: 0px;
+	top: 0px;
+}
+#Graphic {
+	position: absolute;
+	width: 575.404px;
+	height: 149.633px;
+	left: 190px;
+	top: 150.628px;
+	overflow: visible;
+}
+#Elements {
+	position: absolute;
+	width: 575.404px;
+	height: 149.633px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path {
+	fill: rgba(233,243,255,1);
+}
+.Path {
+	overflow: visible;
+	position: absolute;
+	width: 20.025px;
+	height: 20.025px;
+	left: 454.602px;
+	top: 71.485px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_y {
+	fill: rgba(233,243,255,1);
+}
+.Path_y {
+	overflow: visible;
+	position: absolute;
+	width: 13.899px;
+	height: 55.124px;
+	left: 457.664px;
+	top: 9.058px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_z {
+	fill: rgba(233,243,255,1);
+}
+.Path_z {
+	overflow: visible;
+	position: absolute;
+	width: 64.73px;
+	height: 54.701px;
+	transform: translate(-690px, -237.628px) matrix(1,0,0,1,697.4026,323.1401) rotate(-20deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_ {
+	fill: rgba(233,243,255,1);
+}
+.Path_ {
+	overflow: visible;
+	position: absolute;
+	width: 38.056px;
+	height: 31.979px;
+	transform: translate(-690px, -237.628px) matrix(1,0,0,1,977.161,245) rotate(30deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_ba {
+	fill: rgba(233,243,255,1);
+}
+.Path_ba {
+	overflow: visible;
+	position: absolute;
+	width: 56.525px;
+	height: 47.408px;
+	transform: translate(-690px, -237.628px) matrix(1,0,0,1,1202.477,322.2291) rotate(-20deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_bb {
+	fill: rgba(233,243,255,1);
+}
+.Path_bb {
+	overflow: visible;
+	position: absolute;
+	width: 20.025px;
+	height: 20.025px;
+	left: 121.535px;
+	top: 74.917px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_bc {
+	fill: rgba(233,243,255,1);
+}
+.Path_bc {
+	overflow: visible;
+	position: absolute;
+	width: 13.899px;
+	height: 55.124px;
+	left: 124.598px;
+	top: 12.489px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Heading {
+	position: absolute;
+	width: 669px;
+	height: 76px;
+	left: 152px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_Copy_8 {
+	fill: rgba(56,81,115,1);
+}
+.Rectangle_Copy_8 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 4px;
+	left: 284px;
+	top: 72px;
+}
+#One_Card_-_Amazing_B {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 670px;
+	height: 52px;
+	line-height: 52px;
+	margin-top: -6px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(24,36,51,1);
+}
+#New_Project_13_2 {
+	position: absolute;
+	width: 244px;
+	height: 259px;
+	left: 864px;
+	top: 173px;
+	overflow: visible;
+}
+#Button {
+	position: absolute;
+	width: 230px;
+	height: 56px;
+	left: 869px;
+	top: 850px;
+	overflow: visible;
+}
+
+#Button:hover {
+	transition: .2s;
+	box-shadow: 10px 10px lightblue;
+}
+#Rectangle_111 {
+	position: absolute;
+	width: 230px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_111_ba {
+	fill: rgba(56,81,115,1);
+}
+.Rectangle_111_ba {
+	position: absolute;
+	overflow: visible;
+	width: 230px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#Get_Swipe_Pages_Now {
+	left: 27px;
+	top: 16px;
+	position: absolute;
+	overflow: hidden;
+	width: 177px;
+	height: 23px;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#GHOST_Gondolas_of_Houstons_Sus {
+	left: 43px;
+	top: 616px;
+	position: absolute;
+	overflow: visible;
+	width: 1836px;
+	height: 156px;
+	line-height: 52px;
+	margin-top: -8.5px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}

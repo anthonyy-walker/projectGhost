@@ -1,0 +1,888 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@viewport {
+	width: device-width ;
+	zoom: 1.0 ;
+  }
+
+body {
+	background-color: #E9F3FF;
+}
+
+.mediaViewInfo {
+	--web-view-name: Line 1;
+	--web-view-id: Line_1;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Line_1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Line_1 {
+	position: absolute;
+	width: 1920px;
+	height: 1237px;
+	background-color: #E9F3FF;
+	background: #E9F3FF;
+	overflow: hidden;
+	--web-view-name: Line 1;
+	--web-view-id: Line_1;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Background {
+	position: absolute;
+	width: 1920px;
+	height: 1237px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	background: #E9F3FF;
+}
+#Background_i {
+	fill:  #E9F3FF;
+}
+.Background_i {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1237px;
+	left: 0px;
+	top: 0px;
+}
+#rectangle {
+	fill: rgba(233,243,255,1);
+}
+.rectangle {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 1237px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,0,0) rotate(0deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Content {
+	position: absolute;
+	width: 1160px;
+	height: 756px;
+	left: 380px;
+	top: 77px;
+	overflow: visible;
+}
+#Icon_cards {
+	position: absolute;
+	width: 1160px;
+	height: 607px;
+	left: 0px;
+	top: 149px;
+	overflow: visible;
+}
+#icon-card {
+	position: absolute;
+	width: 560px;
+	height: 116px;
+	left: 600px;
+	top: 139px;
+	overflow: visible;
+}
+#Group_27 {
+	position: absolute;
+	width: 444px;
+	height: 116px;
+	left: 116px;
+	top: 0px;
+	overflow: visible;
+}
+#GHOST_line_one_requires_only_1 {
+	left: 0px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 445px;
+	height: 81px;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(118,125,134,1);
+}
+#Construction_Time {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(24,36,51,1);
+}
+#Group_35 {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base {
+	fill: rgba(255,255,255,1);
+}
+.base {
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.102));
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	height: 156px;
+	left: 0px;
+	top: 0px;
+}
+#internet_1 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 9480px;
+	top: 5043px;
+	overflow: visible;
+}
+#icon-card_t {
+	position: absolute;
+	width: 558px;
+	height: 96px;
+	left: 600px;
+	top: 278px;
+	overflow: visible;
+}
+#Group_37 {
+	position: absolute;
+	width: 442px;
+	height: 89px;
+	left: 116px;
+	top: 0px;
+	overflow: visible;
+}
+#GHOST_can_be_built_at_one_thir {
+	left: 0px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 443px;
+	height: 54px;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(118,125,134,1);
+}
+#Construction_Cost {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(24,36,51,1);
+}
+#Group_36 {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_y {
+	fill: rgba(255,255,255,1);
+}
+.base_y {
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.102));
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	height: 156px;
+	left: 0px;
+	top: 0px;
+}
+#icon-card_z {
+	position: absolute;
+	width: 558px;
+	height: 170px;
+	left: 600px;
+	top: 407px;
+	overflow: visible;
+}
+#Group_39 {
+	position: absolute;
+	width: 442px;
+	height: 170px;
+	left: 116px;
+	top: 0px;
+	overflow: visible;
+}
+#GHOST_can_transport_72000_peop {
+	left: 0px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 443px;
+	height: 135px;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(118,125,134,1);
+}
+#Effective {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(24,36,51,1);
+}
+#Group_38 {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_ {
+	fill: rgba(255,255,255,1);
+}
+.base_ {
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.102));
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	height: 156px;
+	left: 0px;
+	top: -10px;
+}
+#reception_1 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 9480px;
+	top: 4745px;
+	overflow: visible;
+}
+#icon-card_ {
+	position: absolute;
+	width: 560px;
+	height: 116px;
+	left: 600px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_41 {
+	position: absolute;
+	width: 444px;
+	height: 116px;
+	left: 116px;
+	top: 0px;
+	overflow: visible;
+}
+#Outfitted_with_a_live_display_ {
+	left: 0px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 445px;
+	height: 81px;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(118,125,134,1);
+}
+#Dynamic {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(24,36,51,1);
+}
+#Group_40 {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_bb {
+	fill: rgba(255,255,255,1);
+}
+.base_bb {
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.102));
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	height: 156px;
+	left: 0px;
+	top: 0px;
+}
+#icon-card_bc {
+	position: absolute;
+	width: 560.001px;
+	height: 143px;
+	left: 0px;
+	top: 278px;
+	overflow: visible;
+}
+#Group_22 {
+	position: absolute;
+	width: 444px;
+	height: 143px;
+	left: 116px;
+	top: 0px;
+	overflow: visible;
+}
+#GHOST_can_be_easily_integrated {
+	left: 0px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 445px;
+	height: 108px;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(118,125,134,1);
+}
+#Integration {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 440px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(24,36,51,1);
+}
+#Group_30 {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_bh {
+	fill: rgba(255,255,255,1);
+}
+.base_bh {
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.102));
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	height: 156px;
+	left: 0px;
+	top: 0px;
+}
+#security-1_1 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 10080px;
+	top: 4904px;
+	overflow: visible;
+}
+#icon-card_bj {
+	position: absolute;
+	width: 560px;
+	height: 143px;
+	left: 0px;
+	top: 139px;
+	overflow: visible;
+}
+
+#Group_21 {
+	position: absolute;
+	width: 444px;
+	height: 143px;
+	left: 116px;
+	top: 0px;
+	overflow: visible;
+}
+#GHOST_produces_less_than_a_qua {
+	left: 0px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 445px;
+	height: 108px;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(118,125,134,1);
+}
+#Sustainability {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 327px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(24,36,51,1);
+}
+
+
+
+
+#Group_29 {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_bo {
+	fill: rgba(255,255,255,1);
+}
+.base_bo {
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.102));
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	height: 156px;
+	left: 0px;
+	top: 0px;
+}
+#icon-card_bp {
+	position: absolute;
+	width: 560.001px;
+	height: 116px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_20 {
+	position: absolute;
+	width: 444px;
+	height: 116px;
+	left: 116.001px;
+	top: 0px;
+	overflow: visible;
+}
+#Due_to_the_ropeways_continuous {
+	left: 0px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 445px;
+	height: 81px;
+	line-height: 27px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(118,125,134,1);
+}
+#Reliable {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(24,36,51,1);
+}
+#Group_28 {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#base_bu {
+	fill: rgba(255,255,255,1);
+}
+.base_bu {
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.102));
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	height: 156px;
+	left: 0px;
+	top: 0px;
+}
+#parking_1 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 10080px;
+	top: 5182px;
+	overflow: visible;
+}
+#Heading {
+	position: absolute;
+	width: 172px;
+	height: 92px;
+	left: 494px;
+	top: 0px;
+	overflow: visible;
+}
+#Heading_bx {
+	left: 0px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	height: 52px;
+	line-height: 52px;
+	margin-top: -6px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(24,36,51,1);
+}
+#Caption {
+	left: 14px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	height: 27px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(56,81,115,1);
+}
+#Elements {
+	position: absolute;
+	width: 1410.397px;
+	height: 366.772px;
+	left: 371px;
+	top: 821px;
+	overflow: visible;
+}
+#Path {
+	fill: rgba(56,81,115,1);
+}
+.Path {
+	overflow: visible;
+	position: absolute;
+	width: 49.084px;
+	height: 49.084px;
+	left: 1114.292px;
+	top: 175.218px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_b {
+	fill: rgba(56,81,115,1);
+}
+.Path_b {
+	overflow: visible;
+	position: absolute;
+	width: 34.07px;
+	height: 135.117px;
+	left: 1121.799px;
+	top: 22.202px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_ca {
+	fill: rgba(56,81,115,1);
+}
+.Path_ca {
+	overflow: visible;
+	position: absolute;
+	width: 93.281px;
+	height: 78.386px;
+	transform: translate(-371px, -821px) matrix(1,0,0,1,1074.872,839.0693) rotate(30deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_cb {
+	fill: rgba(209,230,255,1);
+}
+.Path_cb {
+	overflow: visible;
+	position: absolute;
+	width: 138.55px;
+	height: 116.203px;
+	transform: translate(-371px, -821px) matrix(1,0,0,1,1627.1527,1028.3687) rotate(-20deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_cc {
+	fill: rgba(56,81,115,1);
+}
+.Path_cc {
+	overflow: visible;
+	position: absolute;
+	width: 49.084px;
+	height: 49.084px;
+	left: 297.899px;
+	top: 183.629px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_cd {
+	fill: rgba(56,81,115,1);
+}
+.Path_cd {
+	overflow: visible;
+	position: absolute;
+	width: 34.07px;
+	height: 135.117px;
+	left: 305.406px;
+	top: 30.613px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_ce {
+	fill: rgba(56,81,115,1);
+}
+.Path_ce {
+	overflow: visible;
+	position: absolute;
+	width: 158.662px;
+	height: 134.08px;
+	transform: translate(-371px, -821px) matrix(1,0,0,1,389.1449,1030.6014) rotate(-20deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Ios_Clock_Application_Logo {
+	position: absolute;
+	width: 63px;
+	height: 63px;
+	left: 401px;
+	top: 240px;
+	overflow: visible;
+}
+#leaf {
+	position: absolute;
+	width: 41.25px;
+	height: 46.857px;
+	left: 411.375px;
+	top: 390.571px;
+	overflow: visible;
+}
+#Vector {
+	fill: rgba(130,178,63,1);
+}
+.Vector {
+	overflow: visible;
+	position: absolute;
+	width: 41.002px;
+	height: 46.857px;
+	left: 0.248px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Vector_ca {
+	fill: rgba(179,232,86,1);
+}
+.Vector_ca {
+	overflow: visible;
+	position: absolute;
+	width: 35.172px;
+	height: 42.226px;
+	left: 0.25px;
+	top: 0.001px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Vector_cb {
+	fill: rgba(152,209,63,1);
+}
+.Vector_cb {
+	overflow: visible;
+	position: absolute;
+	width: 35.422px;
+	height: 42.116px;
+	left: 0px;
+	top: 0.111px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#construction_worker_holding_dr {
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	left: 392px;
+	top: 518px;
+	overflow: visible;
+}
+#Wifi_Tower {
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	left: 998px;
+	top: 238px;
+	overflow: visible;
+}
+#Under_Constructions {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	left: 1001px;
+	top: 380px;
+	overflow: visible;
+}
+#Money_Bag {
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	left: 994px;
+	top: 515px;
+	overflow: visible;
+}
+#Business_presentation {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	left: 1008px;
+	top: 690px;
+	overflow: visible;
+}
+#Button {
+	position: absolute;
+	width: 230px;
+	height: 56px;
+	left: 562px;
+	top: 690px;
+	overflow: visible,
+	
+	monospace;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 0 #385173;
+	-webkit-transition: ease-out 0.4s;
+	-moz-transition: ease-out 0.4s;
+	transition: ease-out 0.4s;
+  }
+  
+  
+  #Button:hover {
+	  transition: .2s;
+	  box-shadow: inset 400px 0 0 0 #385173;
+  
+  }
+
+#Rectangle_111 {
+	position: absolute;
+	width: 230px;
+	height: 56px;
+	left: 0px;
+	border: 2px solid #385173;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_111_cj {
+	fill: transparent;
+}
+.Rectangle_111_cj {
+	position: absolute;
+	overflow: visible;
+	width: 230px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#Get_Swipe_Pages_Now {
+	left: 27px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 177px;
+	height: 23px;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: bold, 16px;
+	color: #050e5a;
+	outline: #385173;
+}
